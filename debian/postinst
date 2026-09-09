@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+
+# Register icon cache
+if command -v gtk-update-icon-cache &>/dev/null; then
+    gtk-update-icon-cache -f -t /usr/share/icons/hicolor 2>/dev/null || true
+fi
+if command -v update-desktop-database &>/dev/null; then
+    update-desktop-database /usr/share/applications 2>/dev/null || true
+fi
+
+echo ""
+echo "╔══════════════════════════════════════════════════════════╗"
+echo "║  CC Switch 已安装!                                     ║"
+echo "║                                                        ║"
+echo "║  双击桌面图标或从应用菜单中启动 CC Switch              ║"
+echo "║                                                        ║"
+echo "║  关闭窗口时将自动停止后台服务                           ║"
+echo "╚══════════════════════════════════════════════════════════╝"

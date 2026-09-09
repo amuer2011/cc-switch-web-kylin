@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=CC Switch
+Comment=AI CLI Tools Configuration Manager
+Exec=/usr/bin/cc-switch-web
+Icon=/usr/share/cc-switch-web/cc-switch-web.png
+Terminal=false
+Categories=Utility;
+StartupNotify=true
+StartupWMClass=cc-switch
