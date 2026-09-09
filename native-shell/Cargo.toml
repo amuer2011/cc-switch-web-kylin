@@ -1,0 +1,15 @@
+[package]
+name = "native-shell"
+version = "0.1.0"
+edition = "2021"
+
+# Native GTK+WebKit2GTK 4.0 desktop window. Standalone crate, excluded from
+# workspace — no dependency conflicts with cc_switch_lib's Tauri deps.
+#
+# Build deps: sudo apt install libgtk-3-dev libwebkit2gtk-4.0-dev
+# Runtime deps: libgtk-3-0, libwebkit2gtk-4.0-37
+
+[dependencies]
+gtk = "0.15"
+webkit2gtk = "0.18"
+libc = "0.2"

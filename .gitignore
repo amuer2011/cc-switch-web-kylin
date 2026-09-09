@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+release/
+target/
+native-shell/target/
+web-server/target/
+src-tauri/target/
+
+# Package artifacts (build-generated, not release)
+flatpak/cc-switch.deb
+flatpak-build/
+flatpak-repo/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Local data
+.claude/
+.codex/
+.gemini/
+.cc-switch/
+
+# Test reports
+vitest-report.json
+
+# Worktrees / temp dirs
+.worktrees/
+.spec-workflow/
+.history/
+.npmrc
+
+# Config files (local overrides)
+copilot-api
+CODEBUDDY.md
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+releases/*.deb

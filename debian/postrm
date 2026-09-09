@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+# Nothing to clean up — no systemd service, no background processes
+exit 0

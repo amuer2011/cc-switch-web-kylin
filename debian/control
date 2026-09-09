@@ -1,0 +1,25 @@
+Package: cc-switch-web
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: CC Switch
+Depends: libc6, libssl1.1 | libssl3, libgtk-3-0, libwebkit2gtk-4.0-37
+Description: CC Switch — AI CLI Tools Configuration Manager
+ A comprehensive management tool for AI CLI tools configuration,
+ supporting Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw and Hermes.
+ .
+ This package provides the native desktop window (cc-switch) and
+ the embedded web server (cc-switch-web). No browser needed.
+ .
+ Features:
+   * Provider management (CRUD, switching, 50+ presets)
+   * MCP server management across 5+ AI tools
+   * Prompts/Skills editor with cross-app sync
+   * Local HTTP proxy with automatic failover
+   * Session history browser for all supported tools
+   * Usage tracking and cost analytics
+   * WebDAV cloud sync
+ .
+ The application opens as a standalone window. Close the window
+ to automatically stop all background services.
